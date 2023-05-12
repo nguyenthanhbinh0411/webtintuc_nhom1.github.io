@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}body{
+    background-image: url(https://wallpaperaccess.com/full/949556.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}.header{
+    display: block;
+    float: left;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}ul#main1  li{
+    display: block;
+    float: left;
+    margin: 10px 20px;
+}.search{
+    margin-top: 10px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 800px;
+    border: solid;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    color:#fff;
+}.search :is(input,button){
+    background: transparent;
+    color: #fff;
+    border: none;
+    outline: none;
+}.search_input{
+    width: 0;
+    transition: width 0.5s;
+}.search_button{
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: color .25s;
+}.header2{
+    margin-top: 20px;
+}.header3{
+    margin-top: 20px;
+}a{
+    font-size: medium;
+    color: #fff;
+    text-decoration: none;
+}.menu{
+    padding-left: 200px;
+    height: 60px;
+    color:#232323;
+}ul li{
+    list-style: none;
+}ul#main_menu1 li{
+    display: block;
+    float: left;
+    padding: 20px 20px;
+    border-bottom: 2px solid #fff;
+}#li:hover{
+    background-color: #706d6d;
+    color: #fff;
+}.noidung{
+    display: block;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 140px;
+    margin-left: 90px;
+    width: 60%;
+    height: auto;
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px 20px;
+    padding-bottom: 60px;
+}h2{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px ;
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: Sans-serif;
+}#h2{
+    margin-left: 140px;
+    width:70%;
+    padding-bottom: 10px; 
+    font-size: 20px;
+    border-bottom: 1px solid #232323;
+}iframe{
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 30px;
+    width: 70%;
+}p{
+    font-family: "Google Sans";
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 10px;
+}.cauhinh{
+    display:block;
+    float: left;
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-bottom: 1px solid #969393;
+}.button{
+    padding:10px 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: #5eacf1;
+    color:#fff;
+    border-radius: 4px;
+}.button:hover{
+    background-color: #1978f5;
+    color:#fff;
+}.noidung2{
+    margin-left: 20px;
+    margin-top: 50px;
+    display: block;
+    float: left;
+    background-color: #fff;
+    padding: 40px 40px;
+    width: 20%;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+    color:black;
+}.Topgame1{
+    margin-top: 30px;
+    padding: 15px 10px;
+    background: url(https://img2.wallspic.com/attachments/originals/8/5/9/0/20958-gears_of_war-darkness-video_games-pc_game-game-3840x2400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}.Topgame2{
+    margin-top: 30px;
+    padding: 15px 10px;
+    background: url(https://wallpapercave.com/wp/wp8450475.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}.Topgame3{
+    margin-top: 30px;
+    padding: 15px 10px;
+    background: url(https://images.ctfassets.net/usf1vwtuqyxm/5DIhpKUsxSjdNUnosbvqy7/ded32d8c59c7338083b444ca73872a8c/hogwarts-legacy-desktop.jpg?fm=jpg&q=70&w=2560);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}.Topgame4{
+    margin-top: 30px;
+    padding: 15px 10px;
+    background: url(https://i.pinimg.com/736x/45/7b/3c/457b3c6dcdbdb548aecc54ba744acc28.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}.Topgame5{
+    margin-top: 30px;
+    padding: 15px 10px;
+    background: url(https://digistatement.com/wp-content/uploads/2022/07/Polygonium.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}.noidung3{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+    float: left;
+    background-color: #fff;
+    padding: 40px 40px;
+    width: 20%;
+    height: auto;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+    color:black;
+}.footer{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color:#706d6d;
+    color:#232323;
+   }.footer-header{
+    padding-left: 200px;
+    height: 60px;
+    background-color: #404040;
+    border-bottom: 2px solid;
+   }ul li{
+    list-style: none;
+   }ul#main_menu2 li{
+    display: block;
+    float: left;
+    padding: 20px 20px;
+    border-radius: 4px;
+   }#li:hover{
+    background-color: #222222;
+    color: #fff;
+   }.footer-end1{
+     float: left;
+     color: #fff;
+     font-size: 16px;
+     margin-top: 30px ;
+     margin-left: 70px;
+     line-height: 40px;
+     width: 30%;
+   }p{
+    font-size: 14px;
+   }.footer-end2{
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 70px;
+    margin-right: 70px;
+    line-height: 40px;
+    width: 19%;
+  }.footer-end3{
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 100px;
+    line-height: 40px;
+  }
+  
